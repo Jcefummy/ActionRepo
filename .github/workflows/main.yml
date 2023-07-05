@@ -1,4 +1,4 @@
-name:"production pipeline"
+name: "production pipeline"
 
 on:
  push:
@@ -10,11 +10,11 @@ jobs:
   runs-on: ubuntu-latest
   
   steps:
-   -name: "show all files"
-    run: ls
+   - name: "show all files"
+     run: ls
    
-   -name: "my Message"
-    run: echo " please process the payment for me"
+   - name: "my Message"
+     run: echo " please process the payment for me"
     
-   -name: "run test case"
-   -run: echo "testing the app now"
+   - name: "run test case"
+     run: echo "testing the app now"
